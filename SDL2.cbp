@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SDL2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SDL2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SDL2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Users/Cliente/Desktop/Bibliotecas/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2" />
+			<Add directory="C:/Users/Cliente/Desktop/Bibliotecas/SDL2_image-2.8.1/x86_64-w64-mingw32/include/SDL2" />
+			<Add directory="C:/Users/Cliente/Desktop/Bibliotecas/SDL2_mixer-2.6.3/x86_64-w64-mingw32/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer" />
+			<Add directory="C:/Users/Cliente/Desktop/Bibliotecas/SDL2_image-2.8.1/x86_64-w64-mingw32/lib" />
+			<Add directory="C:/Users/Cliente/Desktop/Bibliotecas/SDL2-2.28.5/x86_64-w64-mingw32/lib" />
+			<Add directory="C:/Users/Cliente/Desktop/Bibliotecas/SDL2_mixer-2.6.3/x86_64-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="Bibliotecas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Bibliotecas.h" />
+		<Unit filename="Collision.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Collision.h" />
+		<Unit filename="RegrasJogo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="RegrasJogo.h" />
+		<Unit filename="SDL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SDL.h" />
+		<Unit filename="SDL2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
