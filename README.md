@@ -3,7 +3,11 @@
 ### Brick Breaker remake using SDL2 and its additional libraries using the C programming language.
 Re-criação do jogo clássico Brick Breaker usando SDL2 e usas bibliotecas adicionais na linguagem C.
 
-![image](https://github.com/JonathasChagas/Brick-Breaker-SDL/assets/154541233/a9460ac2-cdf6-44c5-b496-2e9c3832c37b)  
+<div align="center">
+
+  ![image](https://github.com/JonathasChagas/Brick-Breaker-SDL/assets/154541233/a9460ac2-cdf6-44c5-b496-2e9c3832c37b) 
+</div>
+
 
 ### Project traits:
   1. Runs on 60fps;
